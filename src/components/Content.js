@@ -11,7 +11,7 @@ const Content = () => {
     const [projects, setProjects] = useState([
         {
             title: 'CarboLoader',
-            image: 'put link to image here',
+            image: './assets/carboloaderscreenshot1.png',
             deployed: "https://carbohydratetracker.herokuapp.com/",
             github: "https://github.com/melinamboedecker/carb_counter",
             tech: 'Node.js Handlebars MySQL Express Sequelize',
@@ -19,7 +19,7 @@ const Content = () => {
         },
         {
             title: 'Activity Selector',
-            image: 'put link to image here',
+            image: './assets/ActivitySelectorScreenshot.JPG',
             deployed: "https://melinamboedecker.github.io/ActivitySelector/",
             github: "https://github.com/melinamboedecker/ActivitySelector",
             tech: 'HTML CSS JavaScript Node.js, Express, Handlebars',
@@ -27,7 +27,7 @@ const Content = () => {
         },
         {
             title: 'Technology Blog',
-            image: 'put link to image here',
+            image: './assets/techblogscreenshot3.png',
             deployed: "https://technologyblog.herokuapp.com/",
             github: "https://github.com/melinamboedecker/TechBlog",
             tech: 'HTML CSS JavaScript',
@@ -35,7 +35,7 @@ const Content = () => {
         },
         {
             title: 'Workout Tracker',
-            image: 'put link to image here',
+            image: './assets/WorkoutTrackerScreenshot3.png',
             deployed: "https://workoutlogbook.herokuapp.com/",
             github: "https://github.com/melinamboedecker/WorkoutTracker",
             tech: 'Node.js, Express, Mongoose',
@@ -43,7 +43,7 @@ const Content = () => {
         },
         {
             title: 'Note Taker',
-            image: 'put link to image here',
+            image: './assets/notestakerscreenshot2.png',
             deployed: "https://notenotenotes.herokuapp.com/",
             github: "https://github.com/melinamboedecker/notestaker",
             tech: "Node.js, Express",
@@ -51,7 +51,7 @@ const Content = () => {
         },
         {
             title: 'Work Day Scheduler',
-            image: 'put link to image here',
+            image: './assets/screenshot-5-DayPlanner.png',
             deployed: "https://melinamboedecker.github.io/5-3rdPartyAPIs-DayPlanner/",
             github: "https://github.com/melinamboedecker/5-3rdPartyAPIs-DayPlanner",
             tech: 'HTML CSS JavaScript',
