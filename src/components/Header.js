@@ -1,6 +1,6 @@
 import Navigation from './Navigation'
 
-export default function Header() {
+export default function Header({ handlePageChange }) {
     
   
   
@@ -9,7 +9,7 @@ export default function Header() {
   
     <div>
         <header>
-            <Navigation />
+            <Navigation handlePageChange={handlePageChange} />
         </header>
     </div>
     );
