@@ -1,7 +1,11 @@
 const Contact = () => {
     return ( 
         <div>
-            <h1>Contact</h1>
+            <h3>Contact</h3>
+            <a href="tel:2098457509">209-845-7509</a> 
+            <br></br>
+            <a href="mailto:melinamboedecker@gmail.com">melinamboedecker@gmail.com</a>
+            
         </div>
      );
 }
