@@ -7,10 +7,9 @@ const Project = ({ projects }) => {
             <div>
             {projects.map((project) => (
                 <div className="project" key={project.id}>
-                    <h4>{ project.title }</h4>
+                    <a href={project.deployed}><h4>{ project.title }</h4></a>
                     <p>{ project.image }</p>
-                    <p>{ project.deployed }</p>
-                    <p>{ project.github }</p>
+                    <a href={project.github}><i className="fa fa-github"></i></a>
                     <p>{ project.tech }</p>
                 </div>
             ))}
