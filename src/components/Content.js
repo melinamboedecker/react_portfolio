@@ -1,3 +1,4 @@
+// import './Content.css';
 import React, { useState } from 'react';
 import Header from './Header';
 import Footer from './Footer';
@@ -78,15 +79,17 @@ const Content = () => {
 
     return ( 
         <div>
+            <main>
             <header>
                 <Header handlePageChange={handlePageChange}/>
             </header>
-            <main>
-                {renderPage()}
-            </main>
+            <div className="middle">
+            {renderPage()}
+            </div>
             <footer>
                 <Footer />
             </footer>
+            </main>
         </div>
      );
 }

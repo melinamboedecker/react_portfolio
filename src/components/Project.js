@@ -2,17 +2,17 @@ import { ExternalLink } from 'react-external-link';
 
 const Project = ({ projects }) => {
 
-    console.log(projects)
-
     return ( 
-        <div>
-            <div>
+        <div className="centered">
+            <div className="row">
             {projects.map((project) => (
-                <div className="project" key={project.id}>
-                    <ExternalLink href={project.deployed}><h4>{ project.title }</h4></ExternalLink>
-                    <img src={project.image} alt='project'/>
+                <div className="project regbox"   key={project.id}>
+                    <ExternalLink href={project.deployed}><img className="image" src={project.image} alt='project'/></ExternalLink>
+                    <div className="nameblock">
+                    <h4 className="project-name">{ project.title }</h4>
                     <ExternalLink href={project.github}><i className="fa fa-github"></i></ExternalLink>
                     <p>{ project.tech }</p>
+                    </div>
                 </div>
             ))}
             </div>

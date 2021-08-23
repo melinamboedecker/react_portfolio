@@ -1,7 +1,9 @@
+// import './Navigation.css';
 import React from 'react';
 
 const Navigation = ({ currentPage, handlePageChange }) => {
     return ( 
+        <nav>
         <ul className="nav nav-tabs">
         <li className="nav-item">
           <a
@@ -40,6 +42,7 @@ const Navigation = ({ currentPage, handlePageChange }) => {
           </a>
         </li>
       </ul>
+      </nav>
      );
 }
  
