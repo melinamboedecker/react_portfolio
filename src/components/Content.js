@@ -44,7 +44,7 @@ const Content = () => {
         },
         {
             title: 'Note Taker',
-            image: './assets/notestakerscreenshot2.png',
+            image: './assets/NoteTakerScreenshot.png',
             deployed: "https://notenotenotes.herokuapp.com/",
             github: "https://github.com/melinamboedecker/notestaker",
             tech: "Node.js, Express",

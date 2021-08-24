@@ -55,12 +55,12 @@ nav ul li {
   float: right;
 } */
 
-.nav {
+/* .nav { */
   /* position: absolute; */
   /* float: right; */
   /* top: 20; */
   /* right: 50; */
-}
+/* } */
 
 .active {
   background-color: #fae8e1;
@@ -125,6 +125,7 @@ header {
  #self-photo {
   width: 15%;
   /* position: absolute; */
+  display: inline-block;
   top: 35%;
   left: 20%;
   padding: 0;
