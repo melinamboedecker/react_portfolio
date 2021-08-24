@@ -9,7 +9,17 @@
 --rose-fog: #eac4bc;
 --bouquet: #b28c9c;
 } */
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Patrick+Hand&display=swap');
+body{ 
+  font-family: 'Patrick Hand', cursive;
+  font-size: x-large;
+  /* background-color: #CED3DC; */
+  /* background-color: #747572; */
+  /* background-color: blue; */
+  color: #3c4046;
+  /* color: #DBD9DB; */
+  /* color: red; */
+}
 
 ul {
   list-style-type: none;
@@ -23,6 +33,30 @@ nav ul li {
   /* border-bottom: 2px solid var(--champ); */
 }
 
+.header {
+  position: relative;
+}
+
+/* .myname {
+  position: absolute;
+
+} */
+
+.myname {
+  float: right;
+}
+
+.nav {
+  position: absolute;
+  /* float: right; */
+  /* top: 20; */
+  /* right: 50; */
+}
+
+.active {
+  color: red;
+}
+
 img {
   width: 100%;
 }
@@ -30,8 +64,8 @@ img {
 .App {
   background-image: url('./assets/rasmus-smedstrup-mortensen-_ZtPsxAomeI-unsplash.jpg');
   /* background-color: #c7cedb; */
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
   background-size: 100% 100%;
   text-align: center;
   height: 100vh;

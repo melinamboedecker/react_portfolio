@@ -9,7 +9,7 @@ const Project = ({ projects }) => {
                 <div className="project regbox"   key={project.id}>
                     <ExternalLink href={project.deployed}><img className="image" src={project.image} alt='project'/></ExternalLink>
                     <div className="nameblock">
-                    <h4 className="project-name">{ project.title }</h4>
+                    <h2 className="project-name">{ project.title }</h2>
                     <ExternalLink href={project.github}><i className="fa fa-github"></i></ExternalLink>
                     <p>{ project.tech }</p>
                     </div>

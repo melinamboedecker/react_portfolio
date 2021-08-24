@@ -9,9 +9,9 @@ export default function Header({ handlePageChange }) {
   
     return (
   
-    <div>
+    <div className="header">
        
-            <h1> Melina Boedecker</h1>
+            <h1 className="myname"> Melina Boedecker</h1>
             <Navigation handlePageChange={handlePageChange} />
        
     </div>
