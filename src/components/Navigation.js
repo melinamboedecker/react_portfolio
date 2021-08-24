@@ -2,6 +2,7 @@
 import React from 'react';
 
 const Navigation = ({ currentPage, handlePageChange }) => {
+    console.log('CURRENTPAGE:    ', currentPage)
     return ( 
         <nav>
         <ul className="nav nav-tabs">

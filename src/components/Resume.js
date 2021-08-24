@@ -1,7 +1,7 @@
 const Resume = () => {
     return ( 
         <div>
-            <h3>Resume</h3>
+            {/* <h3>Resume</h3> */}
             <h5><a href="public/assets/MelinaBoedeckerResume.pdf" target="_blank" download="">Download Resume</a></h5>
             <p>Front-end Proficiencies:</p>
                 <ul>

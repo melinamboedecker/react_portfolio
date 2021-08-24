@@ -62,6 +62,8 @@ const Content = () => {
 
     const [currentPage, setCurrentPage] = useState('Aboutme');
 
+    console.log('currentpage in content:    ', currentPage)
+
     const renderPage = () => {
         if (currentPage === 'Aboutme') {
             return <Aboutme />
@@ -78,18 +80,18 @@ const Content = () => {
     const handlePageChange = (page) => setCurrentPage(page);
 
     return ( 
-        <div>
-            <main>
-            <header>
-                <Header handlePageChange={handlePageChange}/>
-            </header>
-            <div className="middle">
+        <div className="content">
+            {/* <main> */}
+            {/* <header> */}
+                <Header handlePageChange={handlePageChange} currentPage={currentPage}/>
+            {/* </header> */}
+            {/* <div className="middle"> */}
             {renderPage()}
-            </div>
-            <footer>
+            {/* </div> */}
+            {/* <footer> */}
                 <Footer />
-            </footer>
-            </main>
+            {/* </footer> */}
+            {/* </main> */}
         </div>
      );
 }

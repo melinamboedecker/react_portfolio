@@ -2,7 +2,7 @@
 import Navigation from './Navigation'
 
 
-export default function Header({ handlePageChange }) {
+export default function Header({ currentPage, handlePageChange }) {
     
   
   
@@ -12,7 +12,7 @@ export default function Header({ handlePageChange }) {
     <div className="header">
        
             <h1 className="myname"> Melina Boedecker</h1>
-            <Navigation handlePageChange={handlePageChange} />
+            <Navigation currentPage={currentPage} handlePageChange={handlePageChange} />
        
     </div>
     );
